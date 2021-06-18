@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/CSS/common.css">  
+    <link rel="stylesheet" href="../assets/CSS/shop.css">  
+    <link rel="stylesheet" href="../assets/CSS/footer.css"> 
+    <link rel="stylesheet" href="../assets/CSS/search.css">
+    <link rel="stylesheet" href="../assets/CSS/animation.css">      
+    <link rel="icon" href="../assets/image/vinylicon.png" />
+  
+</head>
+    <body class="hero-anime">
+      <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md navbar-light">
+    
+                <a class="navbar-brand" href="index.html"><img src="../assets/image/logo.png" class="logo"></a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto py-4 py-md-0">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vinyl</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="All.html">商品 All</a>
+                        <a class="dropdown-item" href="Hip-Hop.html">嘻哈 Hip Hop</a>
+                        <a class="dropdown-item" href="Rock.html">搖滾 Rock</a>
+                        <a class="dropdown-item" href="Jazz.html">爵士 Jazz</a>
+                        <a class="dropdown-item" href="Record.html">唱片機 Record Player</a>
+                        <a class="dropdown-item" href="Speaker.html">揚聲機 Speaker</a>
+                      </div>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="band.html">Band</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="contact.html">Contact</a>    <!-- FAQ -->
+                    </li>
+                  </ul>
+                  <div class="user">
+                    <label class="loginbutton" for="login-popup">LOGIN</label> <!-- Popup login -->   <!--在登入後移除!-->
+                    <label class="joinbutton" for="join-popup">JOIN</label> <!-- Popup JOIN -->     <!--在登入後移除!-->
+                    <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0"></a></div>
+                    <a href="member.html"><img class="man" src="../assets/image/rocker.png"></a>          
+                  </div>
+                  <!--
+                  <div class="helloName">&nbsp Hi 允澔</div>
+                  <button type="submit" class="logout"><span>登出</span></button>-->
+                </div>
+  
+              </nav>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+           
+              
+      <div class="my-0 py-0">
+          <div class="containerr">   <!-- 這裡開始內容-->
+            <!--shopbag-->
+            <div id="cd-shadow-layer"></div>
+            <div id="cd-cart">
+              <h2>Cart</h2>
+              <ul class="cd-cart-items">
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> If I Fail Are We Still Cool?
+                  <div class="cd-price">$28</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+          
+                <li>
+                  <span class="cd-qty">2x &nbsp</span> Honest
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+          
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> Sound Ancestors
+                  <div class="cd-price">$45</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> A Prince Among Thieves
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> Sir Lucious Left Foot
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>     
+              </ul> <!-- cd-cart-items -->
+          
+              <div class="cd-cart-total">
+                <p>Total <span>$215.0</span></p>
+              </div> <!-- cd-cart-total -->
+          
+              <a href="checkout.html" class="checkout-btn">Checkout</a>
+            </div> <!-- cd-cart -->
+            <!--bag end -->
+            <!-- Popup login -->
+            <div class="popup-container">
+              <input type="checkbox" id="login-popup">
+              <div class="popup">
+                <label for="login-popup"></label>
+                <div class="inner">
+                  <div class="title">
+                    <h6>LOGIN</h6>
+                    <label for="login-popup">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  </div>
+                  <div class="logincontent">
+                    <ul>
+                      <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <button type="submit" class="sublog"><span>Login</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Popup end-->
+            <!-- Popup join -->
+            <div class="popup-container">
+              <input type="checkbox" id="join-popup">
+              <div class="popup">
+                <label for="join-popup"></label>
+                <div class="inner">
+                  <div class="title">
+                    <h6>Join</h6>
+                    <label for="join-popup">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  </div>
+                  <div class="joincontent">
+                    <ul>
+                      <li>
+                        <input type="text" placeholder="Name">
+                      </li>
+                      <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password Again">
+                      </li>
+                      <li>
+                        <button type="submit" class="sublog"><span>Join</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Popup end-->
+            <div class="in-left">
+              <div class="shopcontainer">
+                <div class="in-left">
+                  <div class="kind">
+                    <div class="allpro">揚聲機&nbsp</div>&nbspSpeaker
+                  </div>
+                </div>
+                <div class="shopbox">
+                  <div class="in-left">    <!--///////////////////////////-->
+                    <div class="leftbox">
+                      <div class="menu">    <!--shop.css-->
+                        <div class="searchbox">
+                          <form id="demo-2">
+                            <input type="search" placeholder="Search">
+                          </form>
+                        </div>
+                        <ul id="compositions-listc" class="pure-tree main-tree">
+                          <li class="pure-tree_link">
+                              <div class="allpp">
+                                  <a href="All.html">All 所有商品</a>
+                              </div>
+                          </li>
+                        </ul>  
+                        <ul id="compositions-list" class="pure-tree main-tree">
+                          <li>
+                          <input type="checkbox" id="trigger-views" checked="checked">
+                          <label for="trigger-views">Vinyl</label>
+                          <ul class="pure-tree">
+                              <li class="pure-tree_link"><a href="Hip-Hop.html">嘻哈 Hip-Hop</a></li>
+                              <li class="pure-tree_link"><a href="Rock.html">搖滾 Rocker</a></li>
+                              <li class="pure-tree_link"><a href="Jazz.html">爵士 Jazz</a></li>
+                          </ul>
+                          </li>
+                        </ul>
+                        <div class="tree2">
+                          <ul id="compositions-lista" class="pure-tree main-tree">
+                              <li>
+                              <input type="checkbox" id="trigger-a" checked="checked">
+                              <label for="trigger-a">Facility</label>
+                              <ul class="pure-tree">
+                                  <li class="pure-tree_link"><a href="Record.html">唱片機 Record Player</a></li>
+                                  <li class="pure-tree_link"><a href="Speaker.html">揚聲機 Speaker</a></li>
+                              </ul>
+                              </li>
+                          </ul>
+                        </div>
+                      </div>                
+                      <div class="advertise">
+                        <img src="../assets/image/ad1.jpg">
+                        <a href="https://www.stussy.com/" target="_blank"><img src="../assets/image/ad7.jpg"></a> 
+                        <!--隨機廣告ad7/3/6/9--> 
+                        <!--https://open.spotify.com/playlist/37i9dQZF1DWTlKxC5XMcbx--> 
+                        <!--https://www.vanstaiwan.com/--> 
+                        <!--http://moto.honda-taiwan.com.tw/-->
+                        <a href="https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band" target="_blank"><img src="../assets/image/ad2.jpg"></a>
+                        <a href="https://www.chevrolet.com/" target="_blank"><img src="../assets/image/ad8.png"></a>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="rightbox">
+                    <div class="drop_down">
+                      排序方式&nbsp:
+                      <select name="order">
+                        <option value="Preset" selected>&nbspPreset</option>
+                        <option value="Best">-Best Selling</option>
+                        <option value="low_to_high">-Price low to high</option>
+                        <option value="high_to_low">-Price high to low</option>
+                      </select>
+                    </div>
+          <!-- speaker -->
+                    <div class="pdline">
+                      <div class="product">
+                        <a href="#"><img src="../assets/image/speaker1.jpg"></a>
+                          <div class="pdname">Bluetooth® Microsystem</div>
+                          <div class="pdsinger">Victrola Bluetooth Microsystem</div>
+                          <div class="MoneyCartBox">
+                            <div class="pdmoney"><sup>$</sup>129</div>
+                            <button class="addcart">ADD TO CART</button>
+                          </div>
+                      </div>
+                      <div class="product">
+                        <a href="#"><img src="../assets/image/speaker2.jpg"></a>
+                          <div class="pdname">The Linden</div>
+                          <div class="pdsinger">Wood Bluetooth Radio</div>
+                          <div class="MoneyCartBox">
+                            <div class="pdmoney"><sup>$</sup>99</div>
+                            <button class="addcart">ADD TO CART</button>
+                          </div>
+                      </div>
+                      <div class="product">
+                        <a href="#"><img src="../assets/image/speaker3.jpg"></a>
+                          <div class="pdname">The Houston</div>
+                          <div class="pdsinger">Victrola Wooden Bluetooth Radio</div>
+                          <div class="MoneyCartBox">
+                            <div class="pdmoney"><sup>$</sup>60</div>
+                            <button class="addcart">ADD TO CART</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <div class="footcontain">
+                <div class="footcon2">
+                  <div class="footrow1">
+                    <div class="footlogo">
+                    Vinylover
+                    </div>
+                    <b>服務時間</b><br>
+                    <div class="worktime">
+                      週一至週五 9:00 - 12:00、13:00 - 17:30<br>
+                      國定例假日休息<br>
+                    </div>
+                    <img src="../assets/image/phone-call.png">
+                    <span>0977-255-277</span>
+                  </div>
+                  <div class="footrow2">
+                    <div class="foottitle">
+                      CUSTOMER CARE
+                      <div class="footdetail">
+                        <a href="mailto:bmpss96013@gmail.com?subject=我的建議">
+                        聯絡我們 ↗</a><br>
+                        <a href="contact.html">關於我們 ↗</a><br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footrow2">
+                    <div class="foottitle">
+                      ABOUT
+                      <div class="footdetail">
+                        <a href="All.html">產品總覽 ↗</a><br>
+                        <a href="band.html">經典樂團介紹 ↗</a><br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr color="#000000">
+                <div class="copyright">
+                  © 2021 - All Rights Reserved<br>
+                  網頁瀏覽人數:1000人
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>       
+        <script>
+(function ($) {
+  "use strict";
+
+  $(function () {
+    var header = $(".start-style");
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 10) {
+        header.removeClass("start-style").addClass("scroll-on");
+      } else {
+        header.removeClass("scroll-on").addClass("start-style");
+      }
+    });
+  });
+
+  //Animation
+
+  $(document).ready(function () {
+    $("body.hero-anime").removeClass("hero-anime");
+  });
+
+  //Menu On Hover
+
+  $("body").on("mouseenter mouseleave", ".nav-item", function (e) {
+    if ($(window).width() > 750) {
+      var _d = $(e.target).closest(".nav-item");
+      _d.addClass("show");
+      setTimeout(function () {
+        _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+      }, 1);
+    }
+  });
+
+})(jQuery);
+
+
+//圖片輪播
+
+var $item = $(".carousel-item");
+var $wHeight = $(window).height();
+$item.eq(0).addClass("active");
+$item.height($wHeight);
+$item.addClass("full-screen");
+
+$(".carousel img").each(function () {
+  var $src = $(this).attr("src");
+  var $color = $(this).attr("data-color");
+  $(this)
+    .parent()
+    .css({
+      "background-image": "url(" + $src + ")",
+      "background-color": $color
+    });
+  $(this).remove();
+});
+
+$(window).on("resize", function () {
+  $wHeight = $(window).height();
+  $item.height($wHeight);
+});
+
+$(".carousel").carousel({
+  interval: 6000,
+  pause: "false"
+});
+
+
+
+
+
+
+//唱片輪播
+
+function moveToSelected(element) {
+  if (element == "next") {
+    var selected = $(".selected").next();
+  } else if (element == "prev") {
+    var selected = $(".selected").prev();
+  } else {
+    var selected = element;
+  }
+
+  var next = $(selected).next();
+  var prev = $(selected).prev();
+  var prevSecond = $(prev).prev();
+  var nextSecond = $(next).next();
+
+  $(selected).removeClass().addClass("selected");
+
+  $(prev).removeClass().addClass("prev");
+  $(next).removeClass().addClass("next");
+
+  $(nextSecond).removeClass().addClass("nextRightSecond");
+  $(prevSecond).removeClass().addClass("prevLeftSecond");
+
+  $(nextSecond).nextAll().removeClass().addClass("hideRight");
+  $(prevSecond).prevAll().removeClass().addClass("hideLeft");
+}
+
+// Eventos teclado
+$(document).keydown(function (e) {
+  switch (e.which) {
+    case 37: // left
+      moveToSelected("prev");
+      break;
+
+    case 39: // right
+      moveToSelected("next");
+      break;
+
+    default:
+      return;
+  }
+  e.preventDefault();
+});
+
+$("#carousel div").click(function () {
+  moveToSelected($(this));
+});
+
+$("#prev").click(function () {
+  moveToSelected("prev");
+});
+
+$("#next").click(function () {
+  moveToSelected("next");
+});
+
+//唱片輪播End
+
+
+//側邊商品攔
+
+//側邊商品攔END
+
+        </script>
+        
+        <script>
+// shopping bag          
+          jQuery(document).ready(function ($) {
+    //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+    var $L = 1200,
+      $menu_navigation = $("#main-nav"),
+      $cart_trigger = $("#cd-cart-trigger"),
+      $hamburger_icon = $("#cd-hamburger-menu"),
+      $lateral_cart = $("#cd-cart"),
+      $shadow_layer = $("#cd-shadow-layer");
+  
+    //open lateral menu on mobile
+    $hamburger_icon.on("click", function (event) {
+      event.preventDefault();
+      //close cart panel (if it's open)
+      $lateral_cart.removeClass("speed-in");
+      toggle_panel_visibility($menu_navigation, $shadow_layer, $("body"));
+    });
+  
+    //open cart
+    $cart_trigger.on("click", function (event) {
+      event.preventDefault();
+      //close lateral menu (if it's open)
+      $menu_navigation.removeClass("speed-in");
+      toggle_panel_visibility($lateral_cart, $shadow_layer, $("body"));
+    });
+  
+    //close lateral cart or lateral menu
+    $shadow_layer.on("click", function () {
+      $lateral_cart.removeClass("speed-in");
+      $menu_navigation.removeClass("speed-in");
+      $shadow_layer.removeClass("is-visible");
+      $("body").removeClass("overflow-hidden");
+    });
+  
+    //move #main-navigation inside header on laptop
+    //insert #main-navigation after header on mobile
+    move_navigation($menu_navigation, $L);
+    $(window).on("resize", function () {
+      move_navigation($menu_navigation, $L);
+  
+      if ($(window).width() >= $L && $menu_navigation.hasClass("speed-in")) {
+        $menu_navigation.removeClass("speed-in");
+        $shadow_layer.removeClass("is-visible");
+        $("body").removeClass("overflow-hidden");
+      }
+    });
+  });
+  
+  function toggle_panel_visibility($lateral_panel, $background_layer, $body) {
+    if ($lateral_panel.hasClass("speed-in")) {
+      $lateral_panel.removeClass("speed-in");
+      $background_layer.removeClass("is-visible");
+      $body.removeClass("overflow-hidden");
+    } else {
+      $lateral_panel.addClass("speed-in");
+      $background_layer.addClass("is-visible");
+      $body.addClass("overflow-hidden");
+    }
+  }
+  
+  function move_navigation($navigation, $MQ) {
+    if ($(window).width() >= $MQ) {
+      $navigation.detach();
+      $navigation.appendTo("header");
+    } else {
+      $navigation.detach();
+      $navigation.insertAfter("header");
+    }
+  }
+// shopping bag end  
+      </script>
+  </body>
+</html>

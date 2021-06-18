@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/CSS/common.css">  
+    <link rel="stylesheet" href="../assets/CSS/footer.css"> 
+    <link rel="stylesheet" href="../assets/CSS/animation.css">  
+    <link rel="stylesheet" href="../assets/CSS/manager.css">  
+    <link rel="icon" href="../assets/image/vinylicon.png" />
+  
+</head>
+    <body class="hero-anime">
+      <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md navbar-light">
+    
+                <a class="navbar-brand" href="index.html"><img src="../assets/image/logo.png" class="logo"></a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto py-4 py-md-0">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vinyl</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="All.html">商品 All</a>
+                        <a class="dropdown-item" href="Hip-Hop.html">嘻哈 Hip Hop</a>
+                        <a class="dropdown-item" href="Rock.html">搖滾 Rock</a>
+                        <a class="dropdown-item" href="Jazz.html">爵士 Jazz</a>
+                        <a class="dropdown-item" href="Record.html">唱片機 Record Player</a>
+                        <a class="dropdown-item" href="Speaker.html">揚聲機 Speaker</a>
+                      </div>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="band.html">Band</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="contact.html">Contact</a>    <!-- FAQ -->
+                    </li>
+                  </ul>
+                  <div class="user">
+                    <label class="loginbutton" for="login-popup">LOGIN</label> <!-- Popup login -->   <!--在登入後移除!-->
+                    <label class="joinbutton" for="join-popup">JOIN</label> <!-- Popup JOIN -->     <!--在登入後移除!-->
+                    <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0"></a></div>
+                    <a href="member.html"><img class="man" src="../assets/image/rocker.png"></a>          
+                  </div>
+                  <!--
+                  <div class="helloName">&nbsp Hi 允澔</div>
+                  <button type="submit" class="logout"><span>登出</span></button>-->
+                </div>
+  
+              </nav>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+           
+              
+      <div class="my-0 py-0">
+        <div class="containerr">   <!-- 這裡開始內容-->
+            <!--shopbag-->
+            <div id="cd-shadow-layer"></div>
+            <div id="cd-cart">
+              <h2>Cart</h2>
+              <ul class="cd-cart-items">
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> If I Fail Are We Still Cool?
+                  <div class="cd-price">$28</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+          
+                <li>
+                  <span class="cd-qty">2x &nbsp</span> Honest
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+          
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> Sound Ancestors
+                  <div class="cd-price">$45</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> A Prince Among Thieves
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> Sir Lucious Left Foot
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>     
+              </ul> <!-- cd-cart-items -->
+          
+              <div class="cd-cart-total">
+                <p>Total <span>$215.0</span></p>
+              </div> <!-- cd-cart-total -->
+          
+              <a href="checkout.html" class="checkout-btn">Checkout</a>
+            </div> <!-- cd-cart -->
+            <!--bag end -->
+            <!-- Popup login -->
+            <div class="popup-container">
+              <input type="checkbox" id="login-popup">
+              <div class="popup">
+                <label for="login-popup"></label>
+                <div class="inner">
+                  <div class="title">
+                    <h6>LOGIN</h6>
+                    <label for="login-popup">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  </div>
+                  <div class="logincontent">
+                    <ul>
+                      <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <button type="submit" class="sublog"><span>Login</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Popup end-->
+            <!-- Popup join -->
+            <div class="popup-container">
+              <input type="checkbox" id="join-popup">
+              <div class="popup">
+                <label for="join-popup"></label>
+                <div class="inner">
+                  <div class="title">
+                    <h6>Join</h6>
+                    <label for="join-popup">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  </div>
+                  <div class="joincontent">
+                    <ul>
+                      <li>
+                        <input type="text" placeholder="Name">
+                      </li>
+                      <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password Again">
+                      </li>
+                      <li>
+                        <button type="submit" class="sublog"><span>Join</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Popup end-->
+            
+
+            <div class="managerbox">
+                <div class="managertitle">
+                    管理者後台
+                </div>
+                <div class="line"></div>
+                <table class="matable">
+                    <tr class="titlename">
+                       <th>品名</th>   
+                       <th>歌手</th> 
+                       <th>描述</th>  
+                       <th>價錢</th> 
+                       <th>庫存</th>
+                       <th>修改</th>  
+                       <th>下架</th> 
+                       <th>刪除</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="A Few Stars Apart" ></td>
+                        <td><input type="text" class="pdsinger" value="LUKAS NELSON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Saving for a Custom Van"></td>
+                        <td><input type="text" class="pdsinger" value="VARIOUS ARTISTS"></td>
+                        <td><input type="text" class="pddescription" value="This is the sophomore full-length album from producer, multi-instrumentalist and The Internet bassist Patrick Paige II. We have it on baby blue vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Center Won't Hold"></td>
+                        <td><input type="text" class="pdsinger" value="SLEATER-KINNEY"></td>
+                        <td><input type="text" class="pddescription" value="Sir Lucious Left Foot: The Son of Chico Dusty is the debut solo album from OutKast MC Big Boi. It's the Hip-Hop Record of the Month for December, 2020. It comes on exclusive purple and silver galaxy vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Daddy Plays the Horn"></td>
+                        <td><input type="text" class="pdsinger" value="DEXTER GORDON"></td>
+                        <td><input type="text" class="pddescription" value="Made in honor of musician Adam Schlesinger, all proceeds from this compilation album will be donated to MusiCares COVID-19 Relief."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Where I’m Coming From"></td>
+                        <td><input type="text" class="pdsinger" value="LEON SPENCER"></td>
+                        <td><input type="text" class="pddescription" value="The 1970 debut LP by former Velvet Underground member John Cale, we have Vintage Violence on cloudburst vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Bluetooth® Microsystem"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Bluetooth Microsystem"></td>
+                        <td><input type="text" class="pddescription" value="Sleater-Kinney's 9th LP, The Center Won't Hold is the Vinyl Me, Please Essentials for August 2019. We have it on exclusive red vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Houston"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Wooden Bluetooth Radio"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="A Few Stars Apart" ></td>
+                        <td><input type="text" class="pdsinger" value="LUKAS NELSON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Saving for a Custom Van"></td>
+                        <td><input type="text" class="pdsinger" value="VARIOUS ARTISTS"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Center Won't Hold"></td>
+                        <td><input type="text" class="pdsinger" value="SLEATER-KINNEY"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Daddy Plays the Horn"></td>
+                        <td><input type="text" class="pdsinger" value="DEXTER GORDON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Where I’m Coming From"></td>
+                        <td><input type="text" class="pdsinger" value="LEON SPENCER"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Bluetooth® Microsystem"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Bluetooth Microsystem"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Houston"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Wooden Bluetooth Radio"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="A Few Stars Apart" ></td>
+                        <td><input type="text" class="pdsinger" value="LUKAS NELSON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Saving for a Custom Van"></td>
+                        <td><input type="text" class="pdsinger" value="VARIOUS ARTISTS"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Center Won't Hold"></td>
+                        <td><input type="text" class="pdsinger" value="SLEATER-KINNEY"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Daddy Plays the Horn"></td>
+                        <td><input type="text" class="pdsinger" value="DEXTER GORDON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Where I’m Coming From"></td>
+                        <td><input type="text" class="pdsinger" value="LEON SPENCER"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Bluetooth® Microsystem"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Bluetooth Microsystem"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Houston"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Wooden Bluetooth Radio"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="A Few Stars Apart" ></td>
+                        <td><input type="text" class="pdsinger" value="LUKAS NELSON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Saving for a Custom Van"></td>
+                        <td><input type="text" class="pdsinger" value="VARIOUS ARTISTS"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Center Won't Hold"></td>
+                        <td><input type="text" class="pdsinger" value="SLEATER-KINNEY"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Daddy Plays the Horn"></td>
+                        <td><input type="text" class="pdsinger" value="DEXTER GORDON"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Where I’m Coming From"></td>
+                        <td><input type="text" class="pdsinger" value="LEON SPENCER"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="Bluetooth® Microsystem"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Bluetooth Microsystem"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="pdname" value="The Houston"></td>
+                        <td><input type="text" class="pdsinger" value="Victrola Wooden Bluetooth Radio"></td>
+                        <td><input type="text" class="pddescription" value="A Few Stars Apart is the seventh LP from Lukas Nelson & Promise of the Real. We have it on Black & White Marble vinyl."></td>
+                        <td><input type="text" class="pdprice" value="35"></td>
+                        <td><input type="text" class="pdstock" value="600"></td>
+                        <td class="buttontd"><button class="pdedit">📝</button></td>
+                        <td class="buttontd"><button class="pdedit">🛎️</button></td>
+                        <td class="buttontd"><button class="pdedit">🗑️</button></td>
+                    </tr>
+                </table>
+                
+               
+            </div>
+          </div>
+      </div>       
+        <script>
+(function ($) {
+  "use strict";
+
+  $(function () {
+    var header = $(".start-style");
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 10) {
+        header.removeClass("start-style").addClass("scroll-on");
+      } else {
+        header.removeClass("scroll-on").addClass("start-style");
+      }
+    });
+  });
+
+  //Animation
+
+  $(document).ready(function () {
+    $("body.hero-anime").removeClass("hero-anime");
+  });
+
+  //Menu On Hover
+
+  $("body").on("mouseenter mouseleave", ".nav-item", function (e) {
+    if ($(window).width() > 750) {
+      var _d = $(e.target).closest(".nav-item");
+      _d.addClass("show");
+      setTimeout(function () {
+        _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+      }, 1);
+    }
+  });
+
+})(jQuery);
+
+        </script>
+  </body>
+</html>

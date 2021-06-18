@@ -1,0 +1,158 @@
+.hot{
+  width: 100%;
+  /*border: solid sienna;*/
+  position: relative;
+  padding: 30px;
+  background:rgba(83, 83, 83, 0.13);
+  background-image: url("../image/pks1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 900px;
+}
+.hottext{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 45px;
+  padding: 50px 0 120px 0;
+}
+
+.hotcont{
+  width: 1300px;
+  padding: 10px;
+  /*border: darkviolet solid;*/
+  margin: auto;
+  display: flex;
+}
+
+.hotItem{
+  border-radius: 10px;
+  width: 350px;
+  height: 480px;
+  /*border: tan solid;*/
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0px 10px rgba(117, 111, 111, 0.438);
+  position: relative;
+  top: 10px;
+}
+
+.hotItemOne{
+  border-radius: 10px;
+  width: 33%;
+  height: 570px;
+  /*border: tan solid;*/
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0px 10px rgba(117, 111, 111, 0.438);
+}
+
+.hotItemOne img,.hotItem img{
+  width: 100%;
+}
+.two_threepic{
+  position: relative;
+  padding: 0 80px;
+  top: -590px;
+  width: 100%;
+}
+.onepic{
+  position: relative;
+  padding: 0 120px;
+  top: -640px;
+  width: 100%;
+}
+
+.hotItemOne:hover,.hotItem:hover{
+  transform: translateY(-20px);
+  transition: 2s;
+}
+
+/*---------------Product----------------*/
+.pdname{
+    margin:15px 0 0 5px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family:'Arial Narrow Bold', sans-serif;
+  }
+  .pdsinger{
+    margin:10px 0 0 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: rgb(141, 141, 141);
+  }
+  .MoneyCartBox{
+    display:flex;
+  }
+  .pdmoney{
+    margin:30px 0 0 5px;
+    font-size: 33px;
+    font-weight: 550;
+    width: 70px;
+    height: 28px;
+  }
+  .addcart{
+    margin:30px 0 0 15px;
+    background-color: rgb(82, 22, 45);
+    color:rgb(255, 255, 255);
+    border-radius: 22px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: -18px;  
+    left: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+  }
+  .addcart:hover{
+    background-color: rgb(209, 132, 17);
+    color:rgb(255, 255, 255);
+  }
+  /*---win the one--*/
+  .pdname1{
+    margin:15px 0 0 5px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Arial Narrow Bold', sans-serif;
+  }
+  .pdsinger1{
+    margin:15px 0 0 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: rgb(141, 141, 141);
+  }
+  .MoneyCartBox1{
+    display:flex;
+  }
+  .pdmoney1{
+    margin:40px 0 0 5px;
+    font-size: 38px;
+    font-weight: 550;
+    width: 70px;
+    height: 28px;
+  }
+  .addcart1{
+    margin:30px 0 0 15px;
+    background-color: rgb(129, 33, 46);
+    color:rgb(255, 255, 255);
+    border-radius: 26px;
+    width: 170px;
+    height: 60px;
+    position: relative;
+    top: -18px;  
+    left: 120px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+  }
+  .addcart1:hover{
+    background-color: rgb(209, 132, 17);
+    color:rgb(255, 255, 255);
+  }
+  /*--------------Product End-------------------*/

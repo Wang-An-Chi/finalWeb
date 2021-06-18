@@ -1,0 +1,294 @@
+.membercontainer{
+    width: 1200px;
+    /*border: solid;*/
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 0 0 0;
+    /*background-color: rgba(168, 168, 168, 0.397);*/
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow: 0 0px 15px rgba(90, 90, 90, 0.432);
+}
+
+.membertext{
+    /*border: solid;*/
+    margin: 0px 0;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    padding-left: 480px;
+    font-weight: 500;
+}
+
+.Chword{
+    font-size: 40px;
+    font-weight: 600;
+}
+.linner{
+    width: 1100px;
+    height: 2px;
+    margin: 20px 50px;
+    background: rgba(177, 177, 177, 0.39);
+}
+
+.profilebox{
+    /*border: solid salmon;*/
+    height: 270px;
+    width: 750px;
+    margin: auto;
+    display: flex;
+}
+.profileleft{
+    width: 260px;
+    /*border: solid slateblue;*/
+    background: rgba(97, 24, 24, 0.212);
+}
+.profileleft img{
+    width: 100%;
+}
+.profileright{
+    /*border:skyblue solid ;*/
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+}
+.profileright td{
+    height: 70px;
+    font-weight: 500;
+    color: rgba(54, 54, 54, 0.658);
+}
+.myname{
+    font-weight: 600;
+}
+
+.button_M{
+    font-size: 20px;
+    font-weight: 600;
+    width: 130px;
+    height: 40px;
+    line-height: 35px;
+    border-radius: 10px;
+    margin: 10px 15px 0 10px;
+    background-color: rgba(231, 231, 231, 0.856);
+    box-shadow: 3px 3px 6px rgba(138, 138, 138, 0.822);
+}
+.button_M:hover{
+    background-color: rgba(107, 107, 107, 0.384);
+}
+.prtext{
+    /*border: solid;*/
+    margin: 0px 0 30px 0;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    padding-left: 480px;
+    font-weight: 500;
+}
+
+.purchasebox{
+    width: 800px;
+    /*border: seagreen solid;*/
+    background-color: rgba(143, 143, 143, 0.185);
+    margin: auto auto 50px auto;
+    padding: 0px 0 0 0;
+    box-shadow: 5px 3px 17px rgba(138, 138, 138, 0.555);
+}
+.datee{
+    text-align: center;
+    /*border: solid;*/
+    padding: 20px 0;
+}
+.pdline{
+    width: 800px;
+    height: 2px;
+    margin: auto;
+    background: rgba(177, 177, 177, 0.39);
+}
+.prpdname{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 60px 0 90px;
+}
+.onepdp{
+    display: flex;
+    height: 55px;
+    line-height: 55px;
+    /*border: solid sandybrown; */
+    padding: 0 60px 0 90px;
+    color: rgba(99, 99, 99, 0.877);
+}
+.ppdname{
+    width: 500px;
+    /*border: seagreen solid;*/
+}
+.ppdprice{
+    width: 100px;
+   /* border: seagreen solid;*/
+}
+.ppdcount{
+    width: 100px;
+    /*border: seagreen solid;*/
+}
+.deltotal{
+    display: flex;
+    /*border: solid firebrick;*/
+}
+
+.delivery{
+    /*border: solid springgreen;*/
+    width: 480px;
+    margin-left: 90px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.address{
+    color: rgb(41, 75, 114);
+}
+.pricecolor{
+    color: rgb(156, 44, 44);
+}
+.totalprice{
+    /*border: solid springgreen;*/
+    height: 30px;
+    width: 300px;
+    margin:35px 0 0 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+.comLinner{
+    width: 1000px;
+    height: 3px;
+    margin: 5px 100px;
+    background: rgba(119, 121, 20, 0.151);
+}
+
+.onecomment{
+    display: flex;
+    padding: 0 90px;
+    /*border-bottom:solid rgb(196, 205, 209);*/
+}
+
+.commentleft{
+    margin: 0 0 0 90px;
+    width: 15%;
+    /*border: solid sienna;*/
+    height: 150px;
+}
+.commentleft img{
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(192, 185, 185);
+    box-sizing: border-box;
+    margin: 20px 20px;
+}
+.commentRight{
+    width: 70%;
+    /*border: springgreen solid;*/
+    padding: 30px 0;
+}
+.name-date-star{
+    display: flex;
+    position: relative;
+    /*border: solid slateblue;*/
+    margin: 5px 0 25px 0;
+}
+.namebox{
+    /*border: solid;*/
+    width: 150px;
+}
+.nname{
+    /*border: solid;*/
+    color: rgb(35, 66, 78);
+    font-weight: 550;
+}
+
+.commentRight img{
+    height: 25px;
+}
+.sttar{
+    position: relative;
+    top: -3px;
+    left: 0px;
+    /*border: slateblue solid;*/
+}
+.commentRight time{
+    position: relative;
+    top: 1px;
+    left: 5px;
+    font-size: 20px;
+    margin: 0 20px;
+    color: rgb(104, 25, 25);
+    /*border: solid;*/
+}
+.commenttext{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(73, 73, 73, 0.795);
+    /*border: solid;*/
+}
+.cmt{
+    color: rgb(185, 19, 19);
+}
+
+.changeprofile{
+    width: 1200px;
+    height: 650px;
+    /*border: solid;*/
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 0 0 0;
+    /*background-color: rgba(168, 168, 168, 0.397);*/
+    background-color: rgba(255, 255, 255, 0.562);
+    box-shadow: 0 0px 15px rgba(90, 90, 90, 0.432);
+}
+
+.button_C{
+    font-size: 22px;
+    font-weight: 600;
+    width: 150px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin: 15px 15px 0 20px;
+    background-color: rgba(231, 231, 231, 0.856);
+    box-shadow: 3px 3px 6px rgba(138, 138, 138, 0.822);
+}
+.button_C:hover{
+    background-color: rgba(143, 143, 143, 0.384);
+}
+
+.checkchange{
+    font-size: 23px;
+    width: 300px;
+    height: 45px;
+    font-weight: 600;
+    background-color: rgba(211, 211, 211, 0.411);
+    border: thin;
+    color: rgb(54, 46, 46);
+    cursor:pointer;
+}
+.checkchange:focus{
+    border: solid rgba(167, 167, 167, 0.603);
+}
+.checkchangePS{
+    font-size: 23px;
+    width: 250px;
+    height: 40px;
+    background: rgba(199, 199, 199, 0.336);
+    border: thin;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome, Safari */
+    color: rgba(126, 126, 126, 0.616);
+    font-size: 20px;
+}

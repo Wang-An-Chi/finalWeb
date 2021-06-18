@@ -1,0 +1,93 @@
+/*---------------- footer ----------------*/
+.footer{
+    /*border: solid;*/
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0px 12px rgba(117, 111, 111, 0.37);
+  }
+  
+  .footcontain{
+    width: 80%;
+    /*border: solid pink;*/
+    margin: auto;
+    height: 100%;
+  }
+  .footcon2{
+    margin: auto;
+    /*border: solid blueviolet;*/
+    width: 80%;
+    display: flex;
+  }
+  
+  .footrow1{
+    /*border: solid blue;*/
+    width: 40%;
+    height: 290px;
+    font-family: 'Times New Roman', Times, serif;   
+    font-weight:normal;
+    line-height: 35px;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+  .footrow1 img{
+    position: relative;
+    width: 40px;
+    padding-top: 2px;
+    top: 10px;
+  }
+
+  .footrow1 span{
+    position: relative;
+    top: 13px;
+    left: 7px;
+  }
+  .footrow2{
+    /*border: solid rgb(171, 171, 230);*/
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;   
+    font-weight:normal;
+    line-height: 35px;
+    font-size: 20px;
+    padding-top: 40px;
+    
+  }
+  
+  .footlogo{
+    font-size: 55px;
+    padding-right:0px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-family:serif;
+    text-shadow:5px 5px 5px #58585842;
+  }
+  
+  .foottitle{
+    font-size: 30px;
+    color: rgb(71, 71, 71);
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: 500;
+  }
+  
+  .worktime{
+    color: #707070;
+    margin-top: 10px;
+    line-height: 35px;
+  }
+  .copyright{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 0 0 10px 0;
+  }
+
+  .footdetail{
+    font-family: 'Times New Roman', Times, serif;  
+    padding-top: 25px;
+    font-size: 18px; 
+    color: rgb(24, 24, 24);
+  }
+  .footdetail a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+  }
+  /*---------------- footer end----------------*/

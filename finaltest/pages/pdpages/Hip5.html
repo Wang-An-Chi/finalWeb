@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/CSS/product.css"> 
+    <link rel="stylesheet" href="../../assets/CSS/common.css">  
+    <link rel="stylesheet" href="../../assets/CSS/footer.css"> 
+    <link rel="stylesheet" href="../../assets/CSS/animation.css">  
+    <link rel="stylesheet" href="../../assets/CSS/addCT.css">
+    <link rel="stylesheet" href="../../assets/CSS/rwd.css">   
+    <link rel="stylesheet" href="../../assets/CSS/rating.css">    
+    <link rel="icon" href="../../assets/image/vinylicon.png" />
+  
+</head>
+    <body class="hero-anime">
+      <div class="navigation-wrap bg-light start-header start-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar navbar-expand-md navbar-light">
+    
+                <a class="navbar-brand" href="../index.html"><img src="../../assets/image/logo.png" class="logo"></a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto py-4 py-md-0">
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vinyl</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../All.html">商品 All</a>
+                        <a class="dropdown-item" href="../Hip-Hop.html">嘻哈 Hip Hop</a>
+                        <a class="dropdown-item" href="../Rock.html">搖滾 Rock</a>
+                        <a class="dropdown-item" href="../Jazz.html">爵士 Jazz</a>
+                        <a class="dropdown-item" href="../Record.html">唱片機 Record Player</a>
+                        <a class="dropdown-item" href="../Speaker.html">揚聲機 Speaker</a>
+                      </div>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#">Band</a>
+                    </li>
+                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a class="nav-link" href="#">Contact</a>    <!-- FAQ -->
+                    </li>
+                  </ul>
+                  <div class="user">
+                    <label class="loginbutton" for="login-popup">LOGIN</label> <!-- Popup login -->   <!--在登入後移除!-->
+                    <label class="joinbutton" for="join-popup">JOIN</label> <!-- Popup JOIN -->     <!--在登入後移除!-->
+                    <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0"></a></div>
+                    <img class="man" src="../../assets/image/rocker.png">          
+                  </div>
+                  <!--
+                  <div class="helloName">&nbsp Hi 允澔</div>
+                  <button type="submit" class="logout"><span>登出</span></button>-->
+                </div>
+  
+              </nav>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+           
+              
+      <div class="my-0 py-0">
+          <div class="containerr">   <!-- 這裡開始內容-->
+            <!--shopbag-->
+            <div id="cd-shadow-layer"></div>
+            <div id="cd-cart">
+              <h2>Cart</h2>
+              <ul class="cd-cart-items">
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> If I Fail Are We Still Cool?
+                  <div class="cd-price">$28</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+          
+                <li>
+                  <span class="cd-qty">2x &nbsp</span> Honest
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+          
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> Sound Ancestors
+                  <div class="cd-price">$45</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> A Prince Among Thieves
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>
+                <li>
+                  <span class="cd-qty">1x &nbsp</span> Sir Lucious Left Foot
+                  <div class="cd-price">$47</div>
+                  <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+                </li>     
+              </ul> <!-- cd-cart-items -->
+          
+              <div class="cd-cart-total">
+                <p>Total <span>$215.0</span></p>
+              </div> <!-- cd-cart-total -->
+          
+              <a href="../checkout.html" class="checkout-btn">Checkout</a>
+            </div> <!-- cd-cart -->
+            <!--bag end -->
+            <!-- Popup login -->
+            <div class="popup-container">
+              <input type="checkbox" id="login-popup">
+              <div class="popup">
+                <label for="login-popup"></label>
+                <div class="inner">
+                  <div class="title">
+                    <h6>LOGIN</h6>
+                    <label for="login-popup">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  </div>
+                  <div class="logincontent">
+                    <ul>
+                      <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <button type="submit" class="sublog"><span>Login</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Popup end-->
+            <!-- Popup join -->
+            <div class="popup-container">
+              <input type="checkbox" id="join-popup">
+              <div class="popup">
+                <label for="join-popup"></label>
+                <div class="inner">
+                  <div class="title">
+                    <h6>Join</h6>
+                    <label for="join-popup">
+                      <i class="fa fa-times"></i>
+                    </label>
+                  </div>
+                  <div class="joincontent">
+                    <ul>
+                      <li>
+                        <input type="text" placeholder="Name">
+                      </li>
+                      <li>
+                        <input type="email" placeholder="Email">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password">
+                      </li>
+                      <li>
+                        <input type="password" placeholder="Password Again">
+                      </li>
+                      <li>
+                        <button type="submit" class="sublog"><span>Join</span></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Popup end-->
+            <!--product-->
+            <div class="prodectContainer">
+              <div class="productUp">
+                <div class="leftpic">
+                    <div class="productpic">
+                        <img src="../../assets/image/Hip5.jpg">
+                    </div>
+                </div>
+                <div class="righttext">
+                  <div class="pdtextbox">
+                    <div class="proName">
+                      Sir Lucious Left Foot
+                    </div>
+                    <div class="proSinger">
+                      BIG BOI
+                    </div>
+                    <div class="cool">
+                        Stock: 699
+                    </div>
+                    <div class="linee"></div>
+                    <div class="proPriceStar">
+                      <div class="proPrice">
+                        <sup>$</sup>47
+                      </div>
+                      <div class="proStar">
+                        <img src="../../assets/image/star.png">
+                        &nbsp4.9
+                        ｜ 50 則評價
+                      </div>
+                    </div>
+                    <div class="proDescription">
+                        Sir Lucious Left Foot: The Son of Chico Dusty is the debut solo album from OutKast MC Big Boi. It's the Hip-Hop Record of the Month for December, 2020. It comes on exclusive purple and silver galaxy vinyl.
+                    </div>
+                    <div class="cart_quantity">
+                        <button class="addcartbtn">
+                            <span>Add to cart</span>
+                            <div class="cutecart">
+                                <svg viewBox="0 0 36 26">
+                                    <polyline points="1 2.5 6 2.5 10 18.5 25.5 18.5 28.5 7.5 7.5 7.5"></polyline>
+                                    <polyline points="15 13.5 17 15.5 22 10.5"></polyline>
+                                </svg>
+                            </div>
+                        </button>
+                        <form id='quantityform' method='POST' action='#'>
+                            <input type='button' value='-' class='qtyminus' field='quantity' /><!--
+                                --><input type='text' name='quantity' value='1' class='qty' /><!--
+                            --><input type='button' value='+' class='qtyplus' field='quantity' />
+                        </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="cmtbox">
+                    <fieldset>
+                        <legend>歡迎給我們評論 !</legend>
+                        <textarea rows="5" placeholder="在此輸入你的評論"></textarea><br> 
+                        <br>
+                        <div class="rating">
+                            <input type="radio" name="rating" id="r1" checked>
+                            <label for="r1"></label>
+                           
+                            <input type="radio" name="rating" id="r2">
+                            <label for="r2"></label>
+                           
+                            <input type="radio" name="rating" id="r3">
+                            <label for="r3"></label>
+                           
+                            <input type="radio" name="rating" id="r4">
+                            <label for="r4"></label>
+                           
+                            <input type="radio" name="rating" id="r5">
+                            <label for="r5"></label>
+                           
+                        </div>
+                        <button name="output" class="button_w">送出留言</button>
+                    </fieldset>
+                </div>
+                <div class="onecomment">
+                    <div class="commentleft">
+                        <img src="../../assets/image/man.png">
+                    </div>
+                    <div class="commentRight">
+                        <div class="name-date-star">
+                          <div class="namebox">
+                            <div class="nname">張允澔</div>  
+                          </div>
+                          <div class="sttar">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star_none.png">
+                          </div>
+                          <time datetime="2021-02-14">2021-06-13</time>
+                        </div>  
+                        <div class="commenttext">
+                            <span class="cmt">評論 : </span>我覺得很好聽，推薦大家購買，黑膠真的很特別。
+                        </div>
+                    </div>
+                </div>
+                <div class="onecomment">
+                    <div class="commentleft">
+                        <img src="../../assets/image/man.png">
+                    </div>
+                    <div class="commentRight">
+                        <div class="name-date-star">
+                          <div class="namebox">
+                            <div class="nname">煜庭</div>  
+                          </div>
+                          <div class="sttar">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star_none.png">
+                            <img src="../../assets/image/star_none.png">
+                            <img src="../../assets/image/star_none.png">
+                          </div>
+                          <time datetime="2021-02-14">2021-06-12</time>
+                        </div>  
+                        <div class="commenttext">
+                            <span class="cmt">評論 : </span>唱片包裝收到時有稍微壓到，不知道是貨運的公司還是包裝上的問題。
+                        </div>
+                    </div>
+                </div>
+                <div class="onecomment">
+                    <div class="commentleft">
+                        <img src="../../assets/image/man.png">
+                    </div>
+                    <div class="commentRight">
+                        <div class="name-date-star">
+                          <div class="namebox">
+                            <div class="nname">RAY</div>  
+                          </div>
+                          <div class="sttar">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star_none.png">
+                            <img src="../../assets/image/star_none.png">
+                          </div>
+                          <time datetime="2021-02-14">2021-06-05</time>
+                        </div>  
+                        <div class="commenttext">
+                            <span class="cmt">評論 : </span> 就還行普普通通。
+                        </div>
+                    </div>
+                </div>
+                <div class="onecomment">
+                    <div class="commentleft">
+                        <img src="../../assets/image/man.png">
+                    </div>
+                    <div class="commentRight">
+                        <div class="name-date-star">
+                          <div class="namebox">
+                            <div class="nname">王安肥</div>  
+                          </div>
+                          <div class="sttar">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star_none.png">
+                          </div>
+                          <time datetime="2021-02-14">2021-06-01</time>
+                        </div>  
+                        <div class="commenttext">
+                            <span class="cmt">評論 : </span> 產品的品質非常優良，絕對會回購。
+                        </div>
+                    </div>
+                </div>
+                <div class="onecomment">
+                    <div class="commentleft">
+                        <img src="../../assets/image/man.png">
+                    </div>
+                    <div class="commentRight">
+                        <div class="name-date-star">
+                          <div class="namebox">
+                            <div class="nname">張肥肥</div>  
+                          </div>
+                          <div class="sttar">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star.png">
+                            <img src="../../assets/image/star_none.png">
+                          </div>
+                          <time datetime="2021-02-14">2021-06-05</time>
+                        </div>  
+                        <div class="commenttext">
+                            <span class="cmt">評論 : </span> 材質不錯！
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!--product End-->
+            <div class="footer">
+              <div class="footcontain">
+                <div class="footcon2">
+                  <div class="footrow1">
+                    <div class="footlogo">
+                    Vinylover
+                    </div>
+                    <b>服務時間</b><br>
+                    <div class="worktime">
+                      週一至週五 9:00 - 12:00、13:00 - 17:30<br>
+                      國定例假日休息<br>
+                    </div>
+                    <img src="../../assets/image/phone-call.png">
+                    <span>0977-255-277</span>
+                  </div>
+                  <div class="footrow2">
+                    <div class="foottitle">
+                      CUSTOMER CARE
+                      <div class="footdetail">
+                        聯絡我們 ↗<br>
+                        常見問答 ↗<br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="footrow2">
+                    <div class="foottitle">
+                      ABOUT
+                      <div class="footdetail">
+                        產品總覽 ↗<br>
+                        經典樂團介紹 ↗<br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr color="#000000">
+                <div class="copyright">
+                  © 2021 - All Rights Reserved<br>
+                  網頁瀏覽人數:1000人
+                </div>
+              </div>
+            </div>
+            
+          </div>
+      </div>       
+        <script>
+(function ($) {
+  "use strict";
+
+  $(function () {
+    var header = $(".start-style");
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 10) {
+        header.removeClass("start-style").addClass("scroll-on");
+      } else {
+        header.removeClass("scroll-on").addClass("start-style");
+      }
+    });
+  });
+
+  //Animation
+
+  $(document).ready(function () {
+    $("body.hero-anime").removeClass("hero-anime");
+  });
+
+  //Menu On Hover
+
+  $("body").on("mouseenter mouseleave", ".nav-item", function (e) {
+    if ($(window).width() > 750) {
+      var _d = $(e.target).closest(".nav-item");
+      _d.addClass("show");
+      setTimeout(function () {
+        _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+      }, 1);
+    }
+  });
+
+})(jQuery);
+
+
+//購物車動畫按鈕
+    document.querySelectorAll(".addcartbtn").forEach((button) =>
+    button.addEventListener("click", (e) => {
+        if (!button.classList.contains("loading")) {
+            button.classList.add("loading");
+
+            setTimeout(() => button.classList.remove("loading"), 3700);
+        }
+        e.preventDefault();
+    })
+);
+
+//購物車動畫按鈕END
+
+
+//數量加減
+$(function() {
+  // This button will increment the value
+  $('.qtyplus').click(function(e) {
+    // Stop acting like a button
+    e.preventDefault();
+    // Get the field name
+    fieldName = $(this).attr('field');
+    // Get its current value
+    var currentVal = parseInt($('input[name=' + fieldName + ']').val());
+    // If is not undefined
+    if (!isNaN(currentVal)) {
+      // Increment
+      $('input[name=' + fieldName + ']').val(currentVal + 1);
+    } else {
+      // Otherwise put a 0 there
+      $('input[name=' + fieldName + ']').val(0);
+    }
+  });
+  // This button will decrement the value till 0
+  $(".qtyminus").click(function(e) {
+    // Stop acting like a button
+    e.preventDefault();
+    // Get the field name
+    fieldName = $(this).attr('field');
+    // Get its current value
+    var currentVal = parseInt($('input[name=' + fieldName + ']').val());
+    // If it isn't undefined or its greater than 0
+    if (!isNaN(currentVal) && currentVal > 0) {
+      // Decrement one
+      $('input[name=' + fieldName + ']').val(currentVal - 1);
+    } else {
+      // Otherwise put a 0 there
+      $('input[name=' + fieldName + ']').val(0);
+    }
+  });
+});
+//數量加減End
+
+        </script>
+        
+        <script>
+// shopping bag          
+          jQuery(document).ready(function ($) {
+    //if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
+    var $L = 1200,
+      $menu_navigation = $("#main-nav"),
+      $cart_trigger = $("#cd-cart-trigger"),
+      $hamburger_icon = $("#cd-hamburger-menu"),
+      $lateral_cart = $("#cd-cart"),
+      $shadow_layer = $("#cd-shadow-layer");
+  
+    //open lateral menu on mobile
+    $hamburger_icon.on("click", function (event) {
+      event.preventDefault();
+      //close cart panel (if it's open)
+      $lateral_cart.removeClass("speed-in");
+      toggle_panel_visibility($menu_navigation, $shadow_layer, $("body"));
+    });
+  
+    //open cart
+    $cart_trigger.on("click", function (event) {
+      event.preventDefault();
+      //close lateral menu (if it's open)
+      $menu_navigation.removeClass("speed-in");
+      toggle_panel_visibility($lateral_cart, $shadow_layer, $("body"));
+    });
+  
+    //close lateral cart or lateral menu
+    $shadow_layer.on("click", function () {
+      $lateral_cart.removeClass("speed-in");
+      $menu_navigation.removeClass("speed-in");
+      $shadow_layer.removeClass("is-visible");
+      $("body").removeClass("overflow-hidden");
+    });
+  
+    //move #main-navigation inside header on laptop
+    //insert #main-navigation after header on mobile
+    move_navigation($menu_navigation, $L);
+    $(window).on("resize", function () {
+      move_navigation($menu_navigation, $L);
+  
+      if ($(window).width() >= $L && $menu_navigation.hasClass("speed-in")) {
+        $menu_navigation.removeClass("speed-in");
+        $shadow_layer.removeClass("is-visible");
+        $("body").removeClass("overflow-hidden");
+      }
+    });
+  });
+  
+  function toggle_panel_visibility($lateral_panel, $background_layer, $body) {
+    if ($lateral_panel.hasClass("speed-in")) {
+      $lateral_panel.removeClass("speed-in");
+      $background_layer.removeClass("is-visible");
+      $body.removeClass("overflow-hidden");
+    } else {
+      $lateral_panel.addClass("speed-in");
+      $background_layer.addClass("is-visible");
+      $body.addClass("overflow-hidden");
+    }
+  }
+  
+  function move_navigation($navigation, $MQ) {
+    if ($(window).width() >= $MQ) {
+      $navigation.detach();
+      $navigation.appendTo("header");
+    } else {
+      $navigation.detach();
+      $navigation.insertAfter("header");
+    }
+  }
+// shopping bag end  
+      </script>
+  </body>
+</html>

@@ -115,13 +115,15 @@
         display: block;
     }
 
-    .rightbox,
-    .pdline {
+    .rightbox,.pdline {
         display: block;
         margin: 0;
-
     }
-
+    
+   .righttext{
+        width: 400px;
+    }
+    
     .shopcontainer {
         width: 100%;
     }
@@ -178,8 +180,9 @@
         left: 200px;
     }
     .proName{
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 0px;
+        width: 400px;
     }
     .linee {
         width: 100%;

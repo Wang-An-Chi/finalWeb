@@ -192,7 +192,7 @@ body {
   
   /* #Media */
   
-  @media (max-width: 767px) {
+  @media (max-width: 375px) {
     h1 {
       font-size: 38px;
     }
@@ -300,6 +300,9 @@ body {
 /* login彈跳視窗 */
 .popup-container {
   display: flex;
+}
+#fu {
+  display: none;
 }
 
 .loginbutton{
@@ -840,11 +843,15 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   z-index: 100;
   }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 375px) {
   #main-nav, #cd-cart {
   width: 350px;
   }
+
+  
   }
+
+
   @media only screen and (min-width: 1200px) {
   #main-nav, #cd-cart {
   width: 30%;
@@ -999,5 +1006,3 @@ body {
   }
   
 /*-------------------------*/
-
-
